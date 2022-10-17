@@ -39,6 +39,9 @@ public class DividenConquer {
     //     quicksort(arr,0,arr.length-1);
     //     printArr(arr);
     // } 
+    // QUESTION : MERGESORT
+    
+    
 // public static void printArr(int arr[]){
 //     for(int i=0;i<arr.length;i++){
 //         System.out.print(arr[i] +" ");
@@ -87,6 +90,8 @@ public class DividenConquer {
 // }
 
 // SEARCH in ROTATED SORTED ARRAY
+    
+    
 // public static int search(int arr[],int tar,int si, int ei){
 //     if(si>ei){
 //         return -1;
@@ -125,7 +130,10 @@ public class DividenConquer {
     
 // }
 // }
-// merge sort to sort array of string
+    
+//QUESTION: USE MERGE SORT TO SORT ARRAY OF STRINGS 
+    
+    
 public static String[] mergeSort(String[] arr, int lo,int hi){
     if(lo == hi){
         String[] a ={arr[lo]};
